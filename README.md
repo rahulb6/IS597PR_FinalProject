@@ -20,14 +20,14 @@ These are the constants in our simulation that reflect reality as closely as pos
 
 
 
-## 🎲 Variables:
+## Variables:
 
 
 
 
 ---
 
-## 🧩 Code Structure:
+## Code Structure:
 
 We’ve broken the simulation into modular functions and a class-based simulator to keep it structured and reusable:
 
