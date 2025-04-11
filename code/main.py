@@ -31,9 +31,10 @@ def pert_sample(min_val, mode_val, max_val):
 
 if __name__ == "__main__":
 
-    print("Testing PERT distribution sampling...")
+    print("PERT Testttt ")
     min_val, mode_val, max_val = 0.4, 0.8, 1.0
 
     for i in range(10):
         sample = pert_sample(min_val, mode_val, max_val)
         print(f"Sample {i+1}: {sample:.4f}")
+print("DONEEEEEEE")
