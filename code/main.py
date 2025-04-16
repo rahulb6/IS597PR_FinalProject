@@ -33,6 +33,15 @@ def pert_sample(min_val, mode_val, max_val):
 def calculate_distance(coord1, coord2):
     return geodesic(coord1, coord2).km
 
+#Calculate travel time based on distance and speed
+def calculate_time(distance, speed_factor):
+    base_speed = 80  # i chose average truck speed in km/h as 80
+    return distance / (base_speed * speed_factor)
+
+#Visualize convergence of average delivery time
+def plot_results():
+
+    return
 
 if __name__ == "__main__":
     print("PERT Testttt ")
